@@ -14,8 +14,7 @@
 }
 
 
-
-
+/* -----------------------------------------part 1----------------------------------------------- */
 
 
 .p1{
@@ -51,7 +50,7 @@
 }
 
 
-/* -------------------------------------------------------------------------- */
+/* ------------------------------------part 2-------------------------------------- */
 
 .p2{
     background-image: url("../img/p2/Rectangle.png");
@@ -63,6 +62,7 @@
 .p2h1{
     font-family: frederickathegreat;
     font-size: 40px;
+    
 }
 .p2p{
     font-family: montserrat;
@@ -72,6 +72,54 @@
 }
 
 
+/* ---------------------------------part 3--------------------------------- */
 
 
+.p3c h6{
+    font-family: montserrat;
+}
+
+.p3c h1{
+    font-family: frederickathegreat;
+    font-size: 40px;
+}
+
+.p3c p{
+    font-family: montserrat;
+}
+
+.carousel .carousel-indicators button {
+    width: 10px;
+   height: 10px;
+   border-radius: 100%;
+   background-color: yellow ;
+ }
+
+ 
+ /* -----------------------------------------part 4----------------------------------------- */
+
+
+
+ .p4d1{
+    background-image: url(../img/p4/c1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 401px;
+    font-family: montserrat;
+ }
+ .p4d21{
+    background-image: url("../img/p4/c2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: montserrat;
+    height: 225px;
+ }
+ .p4d22{
+    background-image: url("../img/p4/c3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: montserrat;
+    height: 192px;
+ }
+ 
 
