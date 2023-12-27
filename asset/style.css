@@ -9,7 +9,7 @@
 }
 
 @font-face{
-    font-family: Montserrat;
+    font-family: montserrat;
     src: url("../font/[Montserrat]/Montserrat-VariableFont_wght.ttf") format("truetype");
 }
 
@@ -27,5 +27,51 @@
 .nlogo{
     width: 50%;
 }
+
+.h11{
+    font-family: gabelisa;
+}
+
+.h12{
+    font-family: frederickathegreat;
+}
+
+.h13{
+    font-family: montserrat;
+}
+
+.h14{
+    font-family: frederickathegreat;
+}
+
+.abimgp1{
+    position: absolute;
+    width: 82%;
+    top: 17%;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+.p2{
+    background-image: url("../img/p2/Rectangle.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.p2h1{
+    font-family: frederickathegreat;
+    font-size: 40px;
+}
+.p2p{
+    font-family: montserrat;
+}
+.p2img{
+    width: 50%;
+}
+
+
+
 
 
