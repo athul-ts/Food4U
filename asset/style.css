@@ -1,3 +1,20 @@
+@font-face{
+    font-family: gabelisa;
+    src: url("../font/gabelisa/GabelisaFontbyKeithzo.otf") format("opentype");
+}
+
+@font-face{
+    font-family: frederickathegreat;
+    src: url("../font/frederickathegreat/FrederickatheGreat-Regular.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: Montserrat;
+    src: url("../font/[Montserrat]/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+
+
 
 
 
