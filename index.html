@@ -19,7 +19,7 @@
 
   <!-- ------------------------------------------nav------------------------------------------------ -->
 
-  <nav class="navbar navbar-expand-lg navbar-hide-on-scroll fixed-top" id="nav">
+  <nav class="autohide navbar navbar-expand-lg fixed-top" id="nav">
     <div class="container-fluid">
       <div class="row">
 
@@ -62,7 +62,7 @@
 
   <section class="p1">
     <div class="container-fluid">
-      <div class="row justify-content-center align-items-center text-center">
+      <div class="row justify-content-center align-items-center text-center p1r">
         <img src="./img/aimgp11.png" alt="" class="abimgp1">
         <div class="col-md-6 p-5">
           <h1 class="h11 text-center">Are You Hungry?</h1>
@@ -155,19 +155,24 @@
 
       <h6 class="fw-bold">DISCOVER</h6>
       <h1>UPCOMING EVENT</h1>
-      <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum at numquam explicabo temporibus, provident ratione a veniam 
-        <br> in atque obcaecati aliquam ea tenetur sint, accusamus, maiores aspernatur delectus qui dolore.</P>
-      
-      
-                    <!-- ------------------carousal----------------- -->
+      <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum at numquam explicabo temporibus, provident
+        ratione a veniam
+        <br> in atque obcaecati aliquam ea tenetur sint, accusamus, maiores aspernatur delectus qui dolore.
+      </P>
 
-                    
+
+      <!-- ------------------carousal----------------- -->
+
+
       <div class="container-fluid">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -180,11 +185,13 @@
               <img src="./img/p3/c3.png" class="d-block mx-auto" alt="image 3">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -203,16 +210,16 @@
 
     <div class="container-lg">
 
-      
+
 
       <div class="row">
 
         <div class="col-6 p-3">
           <div class="p4d1 p-5 text-white ">
-              <h6>TRY IT TODAY</h6>
-              <h2>MOST</h2>
-              <h2>POPULAR</h2>
-              <h2>PASTA</h2>
+            <h6>TRY IT TODAY</h6>
+            <h2>MOST</h2>
+            <h2>POPULAR</h2>
+            <h2>PASTA</h2>
           </div>
         </div>
         <div class="col-6 p3">
@@ -237,53 +244,71 @@
 
   <section class="cu">
 
-    <div class="container">
+    <div class="container cuc text-center my-5 p-4">
+
+      <h5>RESERVATION</h5>
+      <h1>BOOK YOUR TABLE</h1>
 
       <form action="">
 
-          <!-- <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center g-5">
+          <div class="col-sm-5 col-md-4">
 
-            <div class="col-lg-4">
-                <label for=""></label>
-            </div>
-            <div class="col-lg-4">
+            <input type="text" id="" class="form-control m-3" placeholder="Name">
+            <input type="text" id="" class="form-control m-3" placeholder="Date">
+            <input type="text" id="" class="form-control m-3" placeholder="People">
 
-            </div>
-
-          </div> -->
-
-          <div class="row justify-content-center align-items-center g-5">
-            <div class="col-sm-5 col-md-4">
-             
-                <input type="text" id="" class="form-control m-3" placeholder="Name">
-                <input type="text" id="" class="form-control m-3" placeholder="Date">
-                <input type="text" id="" class="form-control m-3" placeholder="People">
-
-            </div>
-            <div class="col-sm-5 col-md-4">
-
-                <input type="email" id="" class="form-control m-3" placeholder="Email">
-                <input type="text" id="" class="form-control m-3" placeholder="Time">
-                <!-- <button type="button" class="btn btn-primary btn-block m-2 bg-warning">Find a Table</button> -->
-                <div class="d-grid gap-2 m-3">
-                  <button class="btn btn-primary" type="button">Button</button>
-                </div>
-
-            </div>
           </div>
+          <div class="col-sm-5 col-md-4">
 
+            <input type="email" id="" class="form-control m-3" placeholder="Email">
+            <input type="text" id="" class="form-control m-3" placeholder="Time">
+            <!-- <button type="button" class="btn btn-primary btn-block m-2 bg-warning">Find a Table</button> -->
+            <div class="d-grid gap-2 m-3">
+              <button class="btn btn-warning btn-block" type="button">Button</button>
+            </div>
 
-
+          </div>
+        </div>
 
       </form>
 
-
-
-
-
-
-
     </div>
+  </section>
+
+
+  <!-- -------------------------------------------footer------------------------------------------------ -->
+
+  <section class="footer">
+
+    <div class="container">
+      
+        <div class="row text-white my-6 py-5 align-items-center">
+
+          <div class="col-8 fr1">
+            <img src="./img/footericon.png" alt="" class="text-warning">
+            <p class="pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              <br> Asperiores dolores animi similique natus minima odio vel dignissimos.
+              <br> Perferendis natus expedita itaque quod neque, ullam rerum illum,
+              <br> sunt temporibus sint eveniet?</p>
+          </div>
+          <div class="col-4">
+            <p><span><img src="./img/t/Location Icon.png" alt=""></span> Main Road, Building name, Place</p>
+            <p><span><img src="./img/t/Email.png" alt=""></span> mail@example.com</p>
+          </div>
+
+        </div>
+
+        <div class="d-flex justify-content-between py-4 my-4  text-white">
+          <p>© 2021 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><img src="./img/t/Icon.png" alt=""></li>
+            
+          </ul>
+        </div>
+      
+    </div>
+
   </section>
 
 
