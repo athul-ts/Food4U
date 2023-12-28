@@ -19,7 +19,7 @@
 .scrolled-down{
     transform:translateY(-100%); 
     transition: all 0.3s ease-in-out;
-    /* background: ; */
+    /* background: white; */
   }
   .scrolled-up{
     transform:translateY(0); 
