@@ -19,12 +19,19 @@
 .scrolled-down{
     transform:translateY(-100%); 
     transition: all 0.3s ease-in-out;
+    /* background: ; */
   }
   .scrolled-up{
     transform:translateY(0); 
     transition: all 0.3s ease-in-out;
+    /* background-color: white; */
   }
 
+
+  .nm{
+    font-family: montserrat;
+    font-weight: 700;
+  }
 
 
 
@@ -34,8 +41,12 @@
 .p1{
     background-image: url("../img/p1bg.png");
     width: 100%;
-    height: 100vh;
-   
+    /* height: 100vh; */
+}
+
+.ni2{
+    padding-right: 0px;
+    margin-right: 0px;
 }
 
 .p1r{
@@ -44,7 +55,7 @@
 }
 
 .nlogo{
-    width: 50%;
+    width: 35%;
 }
 
 .h11{
@@ -70,6 +81,26 @@
     z-index: -1;
 }
 
+.nb{
+    font-family: montserrat;
+    text-align: center;
+    border-color: black;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+    background:  transparent;
+     height:  44px;
+     line-height:  40px;
+     border:  1px solid rgb(0, 0, 0);
+     display:  inline-block;
+     float:  none;
+     text-align:  center;
+     width:  200px;
+     padding:  0px!important;
+     font-size:  14px;
+
+}
+
 
 /* ------------------------------------part 2-------------------------------------- */
 
@@ -79,6 +110,21 @@
     background-repeat: no-repeat;
 }
 
+.nb2{
+    font-family: montserrat;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+     height:  40px;
+     line-height:  40px;
+     background-color: #ffe001;
+     display:  inline-block;
+     float:  none;
+     text-align:  center;
+     width:  150px;
+     padding:  0px!important;
+     font-size:  13px;
+}
 
 .p2h1{
     font-family: frederickathegreat;
@@ -116,6 +162,28 @@
    background-color: yellow ;
  }
 
+ .nb3{
+    font-family: montserrat;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+    height: 40px;
+    line-height: 20px;
+    background-color: #ffe001;
+    display: inline-block;
+    float: none;
+    text-align: center;
+    width: 332px;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+
+ }
+
+ .if{
+    font-family: montserrat;
+    /* font-size: 10px; */
+ }
  
  /* -----------------------------------------part 4----------------------------------------- */
 
@@ -166,14 +234,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 446px;
+    /* height: 446px; */
  }
 
  .fr1 img{
     width: 40%;
  }
 
+.headerww{
+    width: 100%;
 
+}
 
 
 

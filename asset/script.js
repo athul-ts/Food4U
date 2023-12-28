@@ -13,10 +13,12 @@ document.addEventListener("DOMContentLoaded", function(){
            if(scroll_top < last_scroll_top) {
                 el_autohide.classList.remove('scrolled-down');
                 el_autohide.classList.add('scrolled-up');
+                // el_autohide.classList.add('bg-dark', 'shadow');
             }
             else {
                 el_autohide.classList.remove('scrolled-up');
                 el_autohide.classList.add('scrolled-down');
+                // el_autohide.classList.remove('bg-dark', 'shadow');
             }
             last_scroll_top = scroll_top;
       }); 
