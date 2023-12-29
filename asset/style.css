@@ -55,7 +55,7 @@
 }
 
 .nlogo{
-    width: 35%;
+    width: 200px;
 }
 
 .h11{
@@ -98,9 +98,19 @@
      width:  200px;
      padding:  0px!important;
      font-size:  14px;
-
 }
 
+.nb:hover{
+    background: black;
+    color: white;
+}
+
+.spg{
+    position: absolute;
+    left: -9%;
+    top: 83%;
+    width: 20%;
+}
 
 /* ------------------------------------part 2-------------------------------------- */
 
@@ -124,6 +134,10 @@
      width:  150px;
      padding:  0px!important;
      font-size:  13px;
+}
+
+.nb2:hover{
+    background-color: #ffc400;
 }
 
 .p2h1{
@@ -167,22 +181,28 @@
     color: rgb(0, 0, 0);
     font-weight: bold;
     text-decoration: none;
-    height: 40px;
+    height: 47px;
     line-height: 20px;
     background-color: #ffe001;
     display: inline-block;
     float: none;
     text-align: center;
-    width: 332px;
+    width: 100%;
     font-size: 13px;
     border: none;
     border-radius: 5px;
-
+    margin-left: 15px;
  }
+
+ .nb3:hover{
+    background-color: #ffc400;
+ }
+
 
  .if{
     font-family: montserrat;
-    /* font-size: 10px; */
+    font-size: 11px;
+    padding: 14px;
  }
  
  /* -----------------------------------------part 4----------------------------------------- */
@@ -193,6 +213,7 @@
     background-image: url(../img/p4/c1.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 401px;
     font-family: montserrat;
  }
@@ -200,15 +221,19 @@
     background-image: url("../img/p4/c2.png");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     font-family: montserrat;
-    height: 225px;
+    height: 205px;
+    margin-bottom: 25px;
+    margin-top: 16px;
  }
  .p4d22{
     background-image: url("../img/p4/c3.png");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     font-family: montserrat;
-    height: 192px;
+    height: 170px;
  }
  
 
@@ -225,7 +250,7 @@
     font-family: frederickathegreat;
  }
 
-
+ 
  /* ---------------------------------footer----------------------------------- */
 
  .footer{
@@ -254,6 +279,88 @@
     width: 10px;
 }
 
+
+
+
+
+  @media only screen and (min-width: 320px) {
+    
+    .ni2 img{
+        display: none;
+    }
+
+    .nlogo{
+        width:  169px;
+    }
+
+    .rb{
+        margin-top: 18px;
+    }
+
+    .spg {
+        position: absolute;
+        left: -12%;
+        top: 168%;
+        width: 25%;
+    }
+
+  }
+
+
+  @media only screen and (min-width: 576px) {
+    
+    .ni2 img{
+        display: none;
+    }
+
+    .nlogo{
+        width: 200px;
+    }
+    .rb{
+        margin: 10px;
+    }
+
+
+.spg {
+    position: absolute;
+    left: -12%;
+    top: 195%;
+    width: 25%;
+}
+
+  }
+
+
+  @media only screen and (min-width: 767px) {
+    
+    .ni2 img{
+        display: none;
+    }
+
+    .nlogo{
+        width: 200px;
+    }
+    .rb{
+        margin: 10px;
+    }
+
+    .spg {
+        position: absolute;
+        left: -11%;
+        top: 79%;
+        width: 21%;
+    }
+
+  }
+
+
+  @media only screen and (min-width: 991px) {
+    
+    .ni2 img{
+        display: inline;
+    }
+
+  }
 
 
 
